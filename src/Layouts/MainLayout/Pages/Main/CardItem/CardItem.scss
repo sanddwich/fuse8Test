@@ -1,0 +1,73 @@
+.CardItem {
+  background: #f8f8f8;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .CardItem__img {
+    height: 233px;
+  }
+
+  .CardItem__sticker {
+    position: absolute;
+    padding: 10px;
+    padding-bottom: 6px;
+    padding-top: 8px;
+
+    margin-top: -30px;
+
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .CardItem__content {
+    padding: 15px;
+
+    .CardItem__title {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 27px;
+      /* identical to box height */
+
+      color: #363636;
+    }
+
+    .CardItem__address {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      padding-bottom: 15px;
+      /* identical to box height */
+
+      color: #363636;
+    }
+
+    .CardItem__line1 {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      padding-bottom: 10px;
+      /* identical to box height */
+
+      color: #363636;
+    }
+
+    .CardItem__line2 {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+
+      color: #363636;
+    }
+  }
+}
